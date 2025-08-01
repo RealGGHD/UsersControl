@@ -1,0 +1,56 @@
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.pidb
+*.svd
+
+# Rider
+.idea/
+*.sln.iml
+
+# Visual Studio cache files
+.vs/
+.vscode/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+
+# ASP.NET Core publish output
+publish/
+
+# Logs
+*.log
+
+# DotNet EF migrations (если хочешь, можно исключить миграции)
+Migrations/
+
+# Database files
+*.mdf
+*.ldf
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# dotenv files with secrets
+.env
+.env.local
+
+# JetBrains Rider
+.idea/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+appsettings.Development.json
