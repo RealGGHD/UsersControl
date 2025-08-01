@@ -1,0 +1,8 @@
+﻿.highlight-row.table-primary {
+    background-color: #cce5ff !important;
+}
+
+.table-responsive.rounded-3 {
+    border-radius: 0.75rem;
+    overflow: hidden;
+}
