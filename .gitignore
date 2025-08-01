@@ -30,9 +30,6 @@ publish/
 # Logs
 *.log
 
-# DotNet EF migrations (если хочешь, можно исключить миграции)
-Migrations/
-
 # Database files
 *.mdf
 *.ldf
