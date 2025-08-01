@@ -12,6 +12,9 @@ public class Program
         
         var builder = WebApplication.CreateBuilder(args);
         
+        var port = Environment.GetEnvironmentVariable("PORT") ?? "10000";
+        builder.WebHost.UseUrls($"http://*:{port}");
+        
         builder.Services.AddDbContext<AppDbContext>(options =>
             options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
